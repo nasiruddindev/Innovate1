@@ -169,7 +169,7 @@ nav .row .card img {
 /* Work part start */
 .work{
   padding: 120px 0;
-  background-image: url(/img/work-banner.png);
+  background-image: url(/img/w-banner.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -308,4 +308,43 @@ nav .row .card img {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.project .box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project p{
+  margin: 0;
+}
 /* Project part end */
+
+/* Fotter part start */
+.fotter{
+  padding-top: 140px;
+  padding-bottom: 57px;
+  background-color: #fff;
+}
+.logo-p{
+  padding-top: 44px;
+  width: 80%;
+}
+.fotter h4{
+  padding-bottom: 40px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+.fotter .box{
+  display: flex;
+  justify-content: space-between;
+}
+.fotter .p{
+  display: inline-block;
+}
+.fotter .p:nth-child(1){
+  padding-right: 60px;
+}
+.f-last{
+  padding-top: 80px;
+}
+/* Fotter part end */
