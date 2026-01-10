@@ -1,0 +1,311 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #ff5538;
+  border-radius: 18px;
+  padding: 14px 28px;
+  border: 1px solid transparent;
+  font-family: "Nunito", sans-serif;
+}
+.btn:hover {
+  color: #ff5538;
+  border: 1px solid #ff5538;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #29313d;
+  font-family: "Nunito", sans-serif;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #29313d;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+}
+/* Navbar part start */
+nav {
+  background-image: url(/img/Header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.btn1{
+  text-align: center;
+}
+.navbar {
+  padding-top: 32px;
+}
+.nav-link {
+  padding: 0px !important;
+}
+.navbar ul li {
+  padding-right: 48px;
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+.nav-content {
+  width: 771px;
+  margin: 0 auto;
+  padding-top: 219px;
+}
+.nav-content h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  color: #29313d;
+  font-family: "Poppins", sans-serif;
+}
+.nav-content p {
+  text-align: center;
+  margin: 0 auto;
+  width: 547px;
+  padding-top: 24px;
+  padding-bottom: 44px;
+}
+.nav-content .btn {
+  margin: 0 auto !important;
+}
+nav .row {
+  padding-top: 130px;
+}
+nav .row .card {
+  padding: 30px 40px;
+  width: 420px;
+}
+.row .card h5 {
+  padding-top: 34px;
+  padding-bottom: 16px;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+nav .row .card img {
+  height: 80px;
+  width: 80px;
+}
+/* Navbar part end */
+
+/* Experience part start */
+.experience{
+  padding-top: 170px;
+  padding-bottom: 120px;
+}
+.ex-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.ex-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ex-heading .text h2{
+  width: 693px;
+  padding-bottom: 60px;
+}
+.ex-heading .text p{
+  color: #ff5538;
+  margin: 0;
+}
+.ex-info{
+  width: 500px;
+  height: 458px;
+}
+.ex-img{
+  width: 100%;
+  height: 350px;
+}
+.ex-img img{
+  width: 100%;
+  height: 100%;
+}
+.ex-text{
+  padding: 30px ;
+  width: 100%;
+  height: 108px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px lab(0% 0 0 / 0.293);
+}
+.ex-text h5{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.ex-text p{
+  font-size: 18px;
+  color: #ff5538;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+}
+.eco-info{
+  width: 700px;
+  height: 458px;
+}
+.eco-img{
+  width: 100%;
+  height: 350px;
+}
+.eco-img img{
+  width: 100%;
+  height: 100%;
+}
+/* Experience part end */
+
+/* Work part start */
+.work{
+  padding: 120px 0;
+  background-image: url(/img/work-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work .card-row{
+  gap: 30px;
+}
+.work .w-card{
+  width: 260px;
+  height: 230px;
+  padding: 74px 60px;
+  background-color: #fff;
+  text-align: center;
+}
+.work .w-card h3{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.work .content {
+  padding-left: 80px;
+}
+.work .content h2{
+  width: 570px;
+}
+.work .content p{
+  width: 550px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+/* Work part end */
+
+/* Companies part start */
+.companies{
+  padding: 120px 0;
+  background-color: #fff;
+}
+.companies h2{
+  width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.companies .com{
+  justify-content: space-between;
+}
+.com-info{
+  width: 220px;
+  padding: 49px 35px;
+  background-color: #FDF9F8;
+  display: flex;
+  column-gap: 10px;
+}
+.com-info h5{
+  font-size: 24px;
+  font-weight: 500;
+  transform: translateY(50%) translateY(-50%);
+  font-family: "Poppins", sans-serif;
+  
+}
+.com-img{
+  width: 40px;
+  height: 35px;
+}
+.com-img img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  
+}
+/* Companies part end */
+
+/* Coustomer part start */
+.coustomer{
+  padding: 120px 0;
+  background-color: #FDF9F8;
+}
+.coust-row{
+  column-gap: 28px;
+}
+.coust-img{
+  margin: 60px 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.coust-img img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.coustomer p{
+  width: 630px;
+  padding-bottom: 61px;
+}
+.coustomer h4{
+  font-size: 36px;
+  font-weight: 500;
+  padding-right: 40px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+}
+.coust-btn{
+  display: inline-block;
+}
+.coust-btn .btn{
+  font-size: 24px;
+  padding: 10px 20px;
+}
+.coust-btn .btn:nth-child(1){
+  background-color: #FFDDD7;
+  color: #000;
+  margin-right: 24px;
+}
+.coust-banner{
+  width: 501px;
+  height: 557px;
+  border-radius: 30px;
+}
+.coust-banner img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Coustomer part end */
+
+/* Project part start */
+.project{
+  padding: 100px 0;
+  background-color: #FFD7C8;
+  background-image: url(/img/project.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Project part end */
